@@ -1,0 +1,346 @@
+.header{
+        background-color: #333133;
+}
+div.card{
+    width:16.2rem !important;
+    overflow: hidden;
+    border-radius: 0 !important;
+    background-color: transparent;
+    border: none;
+    color: white;
+    height: fit-content;
+}
+.car img{
+    width: 100%;
+}
+.card-img, .card-img-top {
+    border-top-left-radius:0;
+    border-top-right-radius: 0;
+}
+
+.card-body{
+    padding:0px 1px;
+ 
+}
+.left-side .row{
+    display: flex;
+    justify-content: center;
+}
+.card span.card-text{
+        font-size: 14px;
+        font-weight: 300;
+
+        color: silver;
+}
+.card h3{
+    font-size: 22px;
+    font-weight: 750;
+    white-space: nowrap;
+}
+
+.icons i:hover,.card h3:hover{
+    color:red !important;
+    cursor: pointer;
+}
+.general-info{
+    display: flex;
+    flex-direction: column;
+background-color:none;
+    width: 100%;
+}
+.info{
+  background-color: transparent;
+    display: flex;
+    gap: 60px;
+    height: 28px;
+}
+.medium{
+  gap: 70px;
+}
+.easy{
+    gap:85px;
+}
+.v-easy{
+    gap:95px;
+}
+.v-v-easy{
+    gap:140px;
+}
+.card .price{
+    font-size: 20px;
+    font-weight: 700;
+}
+.CHROMACORE{
+ gap: 42px !important;
+}
+.sale-label{
+    right: 0;
+    background-color: rgba(255, 255, 255, .5);
+    font-weight: 900;
+padding:6.5px 23px !important;
+    white-space: nowrap;
+    text-align:center;
+}
+.special{
+    padding:5px 20px !important;
+
+}
+.all:hover .cart{
+display: block;
+}
+
+
+.container .description{
+    background-color: rgba(15, 15, 15, 0.874);
+height: 100px;
+
+
+}
+.container .description h2{
+    font-size: 22px;
+font-weight: 700;
+}
+.container .description{
+    height: 100%;
+}
+
+    .filter-box {
+    background-color: rgba(15, 15, 15, .8);
+          padding: 20px;
+      border-radius:0;
+      
+      margin: 50px auto;
+    }
+    .slider-track {
+      position: relative;
+      height: 4px;
+     
+      margin: 20px 0;
+      border-radius: 2px;
+    }
+    .slider-track::before {
+      content: "";
+      position: absolute;
+      height: 4px;
+      border-radius: 0px;
+      left: 0;
+      right: 0;
+    }
+    input[type=range] {
+  appearance: none;
+-webkit-appearance: none;
+      width: 100%;
+      pointer-events: none;
+      position: absolute;
+      top: -6px;
+      height: 0;
+    }
+    input[type=range]::-webkit-slider-thumb {
+      -webkit-appearance: none;
+      appearance: none;
+      width: 0;
+      height: 0;
+      border-left: 6px solid transparent;
+      border-right: 6px solid transparent;
+      border-bottom: 12px solid red;
+      cursor: pointer;
+      pointer-events: all;
+      position: relative;
+      margin-top: 6px;
+    }
+    input[type=range]::-moz-range-thumb {
+      width: 0;
+      height: 0;
+      border-left: 6px solid transparent;
+      border-right: 6px solid transparent;
+      border-bottom: 12px solid red;
+      cursor: pointer;
+      pointer-events: all;
+    }
+
+
+     .section-title {
+      background-color: #0d0d0d;
+      padding: 15px 20px;
+      font-weight: 700;
+      font-size: 1.25rem;
+      position: relative;
+    }
+    .section-title::before {
+      content: "";
+      display: inline-block;
+      width: 10px;
+      height: 18px;
+      background-color: red;
+      margin-right: 10px;
+      clip-path: polygon(0 0, 100% 50%, 0 100%);
+      vertical-align: middle;
+    }
+    .product-item {
+      background-color: #0d0d0d;
+      margin-bottom: 15px;
+      padding: 10px;
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      border-radius: 4px;
+      transition: background-color 0.3s ease;
+    }
+    .product-item:hover {
+      background-color: #1a1a1a;
+    }
+    .product-img {
+      width: 60px;
+      height: 60px;
+      object-fit: contain;
+    }
+    .product-info {
+      flex-grow: 1;
+    }
+    .product-name {
+      font-weight: 700;
+      font-size: 1.1rem;
+      margin: 0;
+    }
+    .product-price {
+      color: #bbb;
+      font-size: 0.9rem;
+      margin: 0;
+    }
+
+
+    .categories-section .description-item{
+         background-color: rgba(15, 15, 15, 0.874);
+    border-bottom: 1px solid rgba(255, 255, 255, .05);    }
+    .categories-section .description-item h3{
+    font-size: 19px;
+    line-height: 26px;
+    font-weight: 300;
+    color: silver;
+     }
+    .description-item .information h3:hover{
+      color: red;
+     }
+      .description-item  img{
+        cursor: pointer;
+      }
+     .categories-section .description-item h3:hover{
+      color: white;
+      cursor: pointer;
+     }
+     .no-border{
+        border: none;
+     }
+     .most-popular-section .description-item{
+          background-color: rgba(15, 15, 15, 0.874);
+    border-bottom: 1px solid rgba(255, 255, 255, .05); 
+      
+     }
+     .most-popular-section .description-item h3{
+    font-size: 17px;
+    line-height: 26px;
+    font-weight: 700;
+
+    color: white;
+     }
+   
+ .w-25{
+    width: 25%;
+ }
+ .information span{
+    color: silver;
+        font-weight: 350;
+        font-size: 13px;
+ }
+.btn{
+          background-color: rgb(2, 2, 2);
+              font-size: 17px;
+              color: rgb(209, 209, 209);
+              font-weight: 300;
+              border-radius: 0;
+              padding:10px 32px;
+  }
+ 
+  .right input{
+          background-color: rgb(2, 2, 2);
+border: none;
+padding:70px 70px;
+
+  }
+  ::placeholder{
+   font-size: 17px;
+              color: rgb(209, 209, 209);
+              font-weight: 400;
+          
+
+  }
+  .right .bi-search{
+          background-color: rgb(2, 2, 2);
+          padding:19px 30px;
+          font-size: 20px;
+  }
+
+  @media screen and (max-width:1400px){
+  .left-d-none,  .right-d-none {
+      display: none;
+    }
+    
+  }
+  .left p{
+        font-size: 17px;
+        font-weight: 350;
+        color: silver;
+  }
+  
+
+
+  .pagination .custom-page {
+  background: none;
+  border: none;
+  color: silver; 
+  font-size: 17px;
+  margin: 0 8px;
+  padding: 5px 8px;
+    border: none;
+    background-color: transparent;
+}
+
+
+
+.pagination .custom-page:hover {
+  color: silver; 
+}
+
+.pagination .custom-page::after{
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  border: none;
+  height: 2px;
+  background-color: red;
+}
+
+.pagination .custom-page:hover::after {
+  width: 100%;
+}
+
+
+.start-35{
+  left:35%;
+}
+ @media screen and (max-width:1000px){
+ .start-35{
+    left: 50%;
+    
+  }
+    
+  }
+  @media screen and (max-width:750px){
+ .start-35{
+    left: 40%;
+    
+  }
+    
+  }

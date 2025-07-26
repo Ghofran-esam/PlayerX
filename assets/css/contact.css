@@ -1,0 +1,48 @@
+body{
+   background-color: #17161a;
+}
+
+.header{
+  min-height: 70vh;
+    background-image: url("../img/contact/p3-title-img-1.jpg");
+background-position: center;
+background-size: cover;
+text-align: center;
+width: 100%;
+ padding: 20px; 
+}
+.header h1{
+    font-family: Rubik, sans-serif;
+ font-size: clamp(26px, 6vw, 50px);
+     line-height: 26px;
+    font-weight: 700;
+    color:WHITE;
+
+   
+}
+.contact-us i{
+    font-size: 25px;
+
+}
+.contact-us  .container .description{
+    background-color: rgba(15, 15, 15, 0.874);
+height: 100px;
+
+
+}
+h2.original{
+    font-size: 35px;
+    line-height: 1.17em;
+    font-weight: 700;
+    text-transform: uppercase;
+
+}
+p.original{
+    line-height: 26px;
+    font-weight: 300;
+    color: silver;
+    font-size: 17px;
+}
+.map iframe{
+    height: 100vh;
+}
